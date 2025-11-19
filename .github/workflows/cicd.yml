@@ -33,7 +33,7 @@ jobs:
       # Runs tests
       - name: Test with pytest
         run: |
-          pytest
+          pytest test.py
 
   # This workflow contains a single job called "deploy"
   deploy:
