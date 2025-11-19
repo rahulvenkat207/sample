@@ -16,7 +16,6 @@ jobs:
       - name: Install Dependencies & Run Tests
         run: |
           pip install pytest
-          pip install -r requirements.txt
           pytest test.py
 
   deploy:
